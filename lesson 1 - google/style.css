@@ -1,29 +1,41 @@
+body
+ { 
+     margin:0; 
+}
 header{
     display: flex;
     justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .header__item{
-    margin-left: 10px;
+    margin-left: 15px;
+    color:rgba(0,0,0,0.87);
+}
+.account{
+    border-radius: 50%;
+    overflow: hidden;
 }
 .google{
     padding-top: 50px;
-    padding-left: 270px;
+    margin-left: 255px;
 }
 .search{
+    margin-left :400px;
     margin-top: 30px;
     padding-left: 20px;
-    height: 20px;
+    height: 40px;
     display: flex;
     position: relative;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 300px;
-    margin: 0 auto;
+    width: 500px;
+
 }
 .magnifier{
-    margin-top: 3px;
-    color: #9aa0a6;
+    margin-top: 10px;
+    fill: #9aa0a6;
     height: 20px;
     width: 20px;
 }
@@ -34,44 +46,67 @@ header{
     font-family: inherit;
     font-size: inherit;
     padding-inline-end: 0px;
-    position: relative;
     height: 100%;
     width: 230px;
 }
 .searchbyvoice
 {
+    margin-left : 220px;
+    margin-top: 10px;
     height: 20px;
     width: 20px;
 }
 .center
 {
     padding-top: 30px;
-    padding-left: 520px;
+    padding-left: 485px;
+}
+.center_item
+{
+    border: 1px solid #f8f9fa;
+    outline: transparent;
+    padding: 10px 10px;
+    font-size: 15px;
 }
 .language
 {
     padding-top: 30px;
-    padding-left: 500px;
+    padding-left: 470px;
 }
 .bottom
 {
-    padding-top: 120px;
+    padding-top: 110px;
 }
 .vietnam
 {
     background: #f2f2f2;
-    padding: 15px 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
-    color:rgba(0,0,0,.54)
+    color:rgba(0,0,0,.54);
+
 }
+  
 .end
 {
     background: #f2f2f2;
-    padding: 15px 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color:rgba(0,0,0,.54);
     display: flex;
     justify-content: space-between;
+}
+.other
+{
+    display: flex;
+    font-size: 15px;
+}
+.item{
+    display: block;
+    padding-left: 15px;
+    white-space: nowrap;
 }
