@@ -1,12 +1,18 @@
 body
  { 
-     margin:0; 
+     margin:0;
+     height: 100%; 
+     width: 100%;
 }
 header{
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
     margin-top: 20px;
+    align-items: center;
+    font-family: arial,sans-serif;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .header__item{
@@ -18,15 +24,17 @@ header{
     overflow: hidden;
 }
 .google{
-    padding-top: 50px;
-    margin-left: 255px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 .search{
-    margin-left :400px;
-    margin-top: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
+    margin: auto;
     height: 40px;
     display: flex;
+    justify-content: center;
     position: relative;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
@@ -49,36 +57,61 @@ header{
     height: 100%;
     width: 230px;
 }
+.keyboard
+{
+    margin-left : 180px;
+    margin-top: 14px;
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+}
 .searchbyvoice
 {
-    margin-left : 220px;
-    margin-top: 10px;
-    height: 20px;
-    width: 20px;
+    margin-left : 12px;
+    margin-top: 8px;
+    height: 24px;
+    width: 24px;
 }
 .center
 {
-    padding-top: 30px;
-    padding-left: 485px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
 }
 .center_item
 {
+    background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     outline: transparent;
     padding: 10px 10px;
     font-size: 15px;
+    margin: 11px 4px;
 }
 .language
 {
-    padding-top: 30px;
-    padding-left: 470px;
+    margin-top: 30px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
 }
-.bottom
+.language a
 {
-    padding-top: 110px;
+    padding: 0 3px;
+}
+.footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .vietnam
 {
+    font-family: arial,sans-serif;
     background: #f2f2f2;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -91,6 +124,7 @@ header{
   
 .end
 {
+    font-family: arial,sans-serif;
     background: #f2f2f2;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -108,5 +142,6 @@ header{
 .item{
     display: block;
     padding-left: 15px;
+    padding-right: 15px;
     white-space: nowrap;
 }
