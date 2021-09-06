@@ -69,9 +69,9 @@ header{
     max-width: 584px;
 }
 .search:hover{
-    box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
-    border: 1px solid #dadce0;
-    color: #202124;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 .magnifier{
     margin-top: 12px;
