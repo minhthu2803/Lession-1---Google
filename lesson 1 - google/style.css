@@ -16,17 +16,28 @@ header{
     box-sizing: border-box;
     font-size: 13px;
 }
-
 .header__item{
     margin-left: 20px;
+}
+.header__item a{
     color:rgba(0,0,0,0.87);
+}
+.header__item a img{
+    border-radius: 50%;
+}
+.header__item .header_image:hover{
+    outline: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);
+}
 }
 .account{
     border-radius: 50%;
     overflow: hidden;
 }
 .google{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -90,6 +101,9 @@ header{
     font-size: 14px;
     margin: 11px 5px;
 }
+.center_item a{
+    color: #3c4043;
+}
 .language
 {
     margin-top: 20px;
@@ -146,4 +160,8 @@ header{
 }
 a {
     color: #70757a;
+    text-decoration: none;
   }
+a:hover{
+    text-decoration: underline;
+}
