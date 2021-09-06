@@ -97,12 +97,18 @@ header{
     width: 20px;
     vertical-align: middle;
 }
+.keyboard:hover{
+    cursor: pointer;
+}
 .searchbyvoice
 {
     margin-left : 20px;
     margin-top: 10px;
     height: 24px;
     width: 24px;
+}
+.searchbyvoice:hover{
+    cursor: pointer;
 }
 .center
 {
@@ -128,6 +134,7 @@ header{
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+    cursor: pointer;
 }
 .language
 {
@@ -190,4 +197,5 @@ a {
   }
 a:hover{
     text-decoration: underline;
+    cursor:pointer;
 }
